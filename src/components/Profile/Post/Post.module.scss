@@ -1,0 +1,59 @@
+.wrapper {
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.user {
+	display: flex;
+	padding: 15px;
+	align-items: center;
+}
+
+.name {
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 6px;
+}
+
+.date {
+	color: #5b5b5b;
+	font-size: 18px;
+}
+
+.avatar {
+	width: 60px;
+	border-radius: 50%;
+	margin-right: 20px;
+	height: 60px;
+	object-fit: cover;
+}
+
+.text {
+	padding: 10px 30px 15px 40px;
+	font-size: 22px;
+	word-wrap: break-word;
+}
+
+.image_wrapper {
+	overflow: hidden;
+	padding: 0px 30px 15px 30px;
+	img {
+		border-radius: 20px;
+		width: 100%;
+	}
+}
+
+.like_bar {
+	padding: 0px 30px 15px 30px;
+	display: flex;
+	gap: 20px;
+}
+
+.count_likes {
+	font-size: 16px;
+}
+
+.count_reposts {
+	font-size: 16px;
+}

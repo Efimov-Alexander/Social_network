@@ -1,0 +1,38 @@
+.wrapper {
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	flex: 1 1 auto;
+}
+
+.info_wrapper {
+	padding: 10px;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21 / 18 * 100%;
+	margin-bottom: 10px;
+}
+.save_button {
+	margin-left: 20px;
+}
+
+.button {
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(184, 184, 184, 0.3);
+	height: 45px;
+	padding: 0 15px;
+	align-self: flex-start;
+	font-size: 18px;
+	transition: all 0.3s ease 0s;
+	@media (any-hover: hover) {
+		&:hover {
+			background-color: rgba(0, 93, 187, 0.4);
+		}
+	}
+}

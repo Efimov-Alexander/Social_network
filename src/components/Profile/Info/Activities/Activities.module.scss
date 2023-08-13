@@ -1,0 +1,14 @@
+.activities_wrapper {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	justify-content: center;
+}
+.activities_item {
+	text-align: center;
+	font-size: 18px;
+	line-height: 21 / 18 * 100%;
+	&:not(:last-child) {
+		margin-right: 16px;
+	}
+}

@@ -1,0 +1,18 @@
+.info_item {
+	margin: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 21 / 18 * 100%;
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+.input {
+	font-size: 18px;
+	outline: none;
+	border: 2px solid #747474;
+	border-radius: 5px;
+	padding: 5px 10px;
+}

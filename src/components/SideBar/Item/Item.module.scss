@@ -1,0 +1,29 @@
+.item {
+	display: flex;
+	align-items: center;
+	img {
+		margin-right: 6px;
+	}
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+
+.link {
+	color: #1f3c60;
+	font-size: 24px;
+	line-height: calc(28 / 24 * 100%);
+	transition: all 0.3s ease 0s;
+	@media (any-hover: hover) {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.active {
+	font-size: 24px;
+	line-height: calc(28 / 24 * 100%);
+	transition: all 0.3s ease 0s;
+	color: rgba(31, 60, 96, 0.75);
+}

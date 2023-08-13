@@ -1,0 +1,1494 @@
+{
+	"friendsAll": [
+		{
+			"id": 1,
+			"info": {
+				"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+				"name": "Максимов Максим",
+				"online": true,
+				"description": "Люблю футбол",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Я видел тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Ива"
+				},
+				{
+					"id": 5,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Как жизнь?",
+					"date": "час назад",
+					"name": "Максимов Максим"
+				}
+			],
+			"posts": [
+				{
+					"id": 3,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:07",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fdbdfgfd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:06",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fasdf",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:05",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		},
+		{
+			"id": 2,
+			"info": {
+				"description": "Смотрю аниме",
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"name": "Иванова Анна",
+				"online": true,
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Я видела тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 5,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Понятно",
+					"date": "час назад",
+					"name": "Иванова Анна"
+				}
+			],
+			"posts": [
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "dfhbdfnhfgn",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:15",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		},
+		{
+			"id": 3,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": false,
+				"avatar": "https://cdn1.flamp.ru/3e1b70aa7f6e3fc3bafdf9943df067e2.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 4,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": false,
+				"avatar": "https://heaclub.ru/tim/215b50c10c4cf27b252b396d4dbef881/milaya-kartinka-na-avu-dlya-parnei.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 5,
+			"info": {
+				"name": "Михаилов Михаил",
+				"description": "ЮФУ",
+				"online": false,
+				"avatar": "https://economri.ru/800/600/https/million-wallpapers.ru/wallpapers/0/64/13704138888854165815/kapyushon-stil-ochki-shhetina-dzhared-leto-krutoj-muzhchina.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 6,
+			"info": {
+				"name": "Максимов Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://kartinkin.net/uploads/posts/2022-02/1645776970_15-kartinkin-net-p-brutalnie-kartinki-16.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 7,
+			"info": {
+				"name": "Иванова Анна",
+				"description": "Смотрю фильмы",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 8,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": false,
+				"avatar": "https://74foto.ru/800/600/https/www.theplace.ru/archive/shane_west/img/0_01_(8).jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 9,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": false,
+				"avatar": "https://funik.ru/wp-content/uploads/2018/10/b9177cc122aedeefbfff.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		}
+	],
+	"friendsOnline": [
+		{
+			"id": 1,
+			"info": {
+				"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+				"name": "Максимов Максим",
+				"online": true,
+				"description": "Люблю футбол",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Я видел тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Ива"
+				},
+				{
+					"id": 5,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Как жизнь?",
+					"date": "час назад",
+					"name": "Максимов Максим"
+				}
+			],
+			"posts": [
+				{
+					"id": 3,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:07",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fdbdfgfd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:06",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fasdf",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:05",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		},
+		{
+			"id": 2,
+			"info": {
+				"description": "Смотрю аниме",
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"name": "Иванова Анна",
+				"online": true,
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Я видела тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 5,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Понятно",
+					"date": "час назад",
+					"name": "Иванова Анна"
+				}
+			],
+			"posts": [
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "dfhbdfnhfgn",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:15",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		},
+		{
+			"id": 6,
+			"info": {
+				"name": "Максимов Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://kartinkin.net/uploads/posts/2022-02/1645776970_15-kartinkin-net-p-brutalnie-kartinki-16.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 7,
+			"info": {
+				"name": "Иванова Анна",
+				"description": "Смотрю фильмы",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		}
+	],
+	"applicationsIncoming": [
+		{
+			"id": 200,
+			"info": {
+				"name": "Артемов Артем",
+				"description": "Люблю музыку",
+				"online": true,
+				"avatar": "https://klike.net/uploads/posts/2023-02/1675240466_3-56.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 201,
+			"info": {
+				"name": "Шапошникова Анастасия",
+				"description": "",
+				"online": false,
+				"avatar": "https://mobimg.b-cdn.net/v3/fetch/7d/7d449629fb664255799af555c7d8a899.jpeg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 202,
+			"info": {
+				"name": "Максимовафыа Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 203,
+			"info": {
+				"name": "Максимов Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 204,
+			"info": {
+				"name": "Иванова Анна",
+				"description": "Смотрю аниме",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 205,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": false,
+				"avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663668572_42-mykaleidoscope-ru-p-vzglyad-lyubyashchego-muzhchini-vkontakte-47.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 206,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": true,
+				"avatar": "https://sun9-34.userapi.com/impg/99i5hHNk4eKtYqW5ueyHrrZS2mcVw8DNDaXQCA/fWfUAf8mFF4.jpg?size=1280x1280&quality=96&sign=2a214f0f17a3371fce40a910fac110de&c_uniq_tag=W3dJw15riEv6GQNmwPl_yk6aA2P_AP9PsS4hgtDRi38&type=album",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 207,
+			"info": {
+				"name": "Михаилов Михаил",
+				"description": "ЮФУ",
+				"online": false,
+				"avatar": "https://otkritkis.com/wp-content/uploads/2021/12/115-4.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		}
+	],
+	"applicationsOutgoing": [
+		{
+			"id": 300,
+			"info": {
+				"name": "Колесникова Екатерина",
+				"description": "Обожаю сладкое",
+				"online": true,
+				"avatar": "https://klike.net/uploads/posts/2023-04/1681455785_3-73.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 301,
+			"info": {
+				"name": "Васенкова Мария",
+				"description": "Люблю сериалы",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 302,
+			"info": {
+				"name": "Максимов Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://media.ladylike.gr/ldl-images/marianoout_07_2016.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 303,
+			"info": {
+				"name": "Иванова Анна",
+				"description": "Смотрю аниме",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 304,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": false,
+				"avatar": "https://stihi.ru/pics/2018/01/17/9496.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 305,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": false,
+				"avatar": "https://www.inpearls.ru/img/pearls/1602246-4186.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		}
+	],
+	"dialogs": [
+		{
+			"id": 1,
+			"info": {
+				"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+				"name": "Максимов Максим",
+				"online": true,
+				"description": "Люблю футбол",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Я видел тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Ива"
+				},
+				{
+					"id": 5,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Как жизнь?",
+					"date": "час назад",
+					"name": "Максимов Максим"
+				}
+			],
+			"posts": [
+				{
+					"id": 3,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:07",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fdbdfgfd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:06",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fasdf",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:05",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		},
+		{
+			"id": 2,
+			"info": {
+				"description": "Смотрю аниме",
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"name": "Иванова Анна",
+				"online": true,
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Я видела тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 5,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Понятно",
+					"date": "час назад",
+					"name": "Иванова Анна"
+				}
+			],
+			"posts": [
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "dfhbdfnhfgn",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:15",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"id": 10000,
+			"info": {
+				"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+				"name": "Иван Иванов",
+				"description": "fasdfasfaсczf",
+				"online": true,
+				"dateOfBirth": "30.05.2001сcz",
+				"city": "Москвасcz",
+				"education": "РУТ МИИТсcz",
+				"friendsCount": 20
+			},
+			"posts": [
+				{
+					"id": 23,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "аываыв",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:25",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 22,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fds",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:17",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 21,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "zczx",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:16",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 20,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsdc",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:16",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 19,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fdsxcz",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:15",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 18,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fdsx",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:15",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 17,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsdf",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:14",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 16,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "авыас",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:13",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 15,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsdfsdccxx",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:13",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 14,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "ffsdf",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:10",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 13,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsdafsadcx",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 11:10",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 12,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"name": "Сергей Сергеев",
+					"date": "8 Август 10:35",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 11,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fdsf",
+					"name": "Сергей Сергеев",
+					"date": "6 Август 16:56",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 10,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "cxzc",
+					"name": "Сергей Сергеев",
+					"date": "5 Август 12:03",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 9,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsdfscz",
+					"name": "Сергей Сергеев",
+					"date": "5 Август 11:59",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 8,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsdfs",
+					"name": "Сергей Сергеев",
+					"date": "5 Август 11:59",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 7,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "",
+					"name": "Сергей Сергеев",
+					"date": "5 Август 11:55",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 6,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "ываываы",
+					"name": "Сергей Сергеев",
+					"date": "5 Август 11:30",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 5,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "gsdgsd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:34",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsadfsda",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:32",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 3,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "bfdbdf",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:30",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 2,
+					"avatar": "https://android-obzor.com/wp-content/uploads/2022/03/28e4ac42f547e6ac0f50f7cfa916ca93.jpg",
+					"text": "Это моя кошечка",
+					"name": "Мэрлин Монро",
+					"date": "7 июнь 17:39",
+					"img": "https://w.forfun.com/fetch/54/54bb741fd881313da79ec7d7f648fe9d.jpeg?w=1470&r=0.5625",
+					"countLikes": 132,
+					"countReposts": 45
+				},
+				{
+					"id": 1,
+					"avatar": "https://flomaster.club/uploads/posts/2023-01/1673475557_flomaster-club-p-norm-risunki-vkontakte-58.jpg",
+					"text": "Это я",
+					"name": "Сергей Сергеев",
+					"date": "14 июнь 13:56",
+					"img": "https://hthayat.haberturk.com/im/2020/02/18/ver1596614406/1073266_1920x1080.jpg",
+					"countLikes": 12,
+					"countReposts": 5
+				}
+			]
+		},
+		{
+			"id": 1,
+			"info": {
+				"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+				"name": "Максимов Максим",
+				"online": true,
+				"description": "Люблю футбол",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Я видел тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Максимов Максим"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Ива"
+				},
+				{
+					"id": 5,
+					"avatar": "https://www.alexandretaleb.com.br/wp-content/uploads/2015/01/hextie-gravata.-alexandre-taleb.jpg",
+					"message": "Как жизнь?",
+					"date": "час назад",
+					"name": "Максимов Максим"
+				}
+			],
+			"posts": [
+				{
+					"id": 3,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fsd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:07",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fdbdfgfd",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:06",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				},
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "fasdf",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:05",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		},
+		{
+			"id": 2,
+			"info": {
+				"description": "Смотрю аниме",
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"name": "Иванова Анна",
+				"online": true,
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [
+				{
+					"id": 1,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Привет",
+					"date": "4 часa назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 2,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Привет",
+					"date": "2 часa назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 3,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Я видела тебя сегодня",
+					"date": "2 часа назад",
+					"name": "Иванова Анна"
+				},
+				{
+					"id": 4,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"message": "Я тебя тоже",
+					"date": "2 часа назад",
+					"name": "Иванов Иван"
+				},
+				{
+					"id": 5,
+					"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+					"message": "Понятно",
+					"date": "час назад",
+					"name": "Иванова Анна"
+				}
+			],
+			"posts": [
+				{
+					"id": 1,
+					"avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+					"text": "dfhbdfnhfgn",
+					"name": "Сергей Сергеев",
+					"date": "1 Август 12:15",
+					"img": "",
+					"countLikes": 0,
+					"countReposts": 0
+				}
+			]
+		},
+		{
+			"id": 3,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": false,
+				"avatar": "https://cdn1.flamp.ru/3e1b70aa7f6e3fc3bafdf9943df067e2.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 4,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": false,
+				"avatar": "https://heaclub.ru/tim/215b50c10c4cf27b252b396d4dbef881/milaya-kartinka-na-avu-dlya-parnei.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 5,
+			"info": {
+				"name": "Михаилов Михаил",
+				"description": "ЮФУ",
+				"online": false,
+				"avatar": "https://economri.ru/800/600/https/million-wallpapers.ru/wallpapers/0/64/13704138888854165815/kapyushon-stil-ochki-shhetina-dzhared-leto-krutoj-muzhchina.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 6,
+			"info": {
+				"name": "Максимов Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://kartinkin.net/uploads/posts/2022-02/1645776970_15-kartinkin-net-p-brutalnie-kartinki-16.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 7,
+			"info": {
+				"name": "Иванова Анна",
+				"description": "Смотрю фильмы",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 8,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": false,
+				"avatar": "https://74foto.ru/800/600/https/www.theplace.ru/archive/shane_west/img/0_01_(8).jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 9,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": false,
+				"avatar": "https://funik.ru/wp-content/uploads/2018/10/b9177cc122aedeefbfff.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 200,
+			"info": {
+				"name": "Артемов Артем",
+				"description": "Люблю музыку",
+				"online": true,
+				"avatar": "https://klike.net/uploads/posts/2023-02/1675240466_3-56.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 201,
+			"info": {
+				"name": "Шапошникова Анастасия",
+				"description": "",
+				"online": false,
+				"avatar": "https://mobimg.b-cdn.net/v3/fetch/7d/7d449629fb664255799af555c7d8a899.jpeg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 202,
+			"info": {
+				"name": "Максимовафыа Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 203,
+			"info": {
+				"name": "Максимов Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 204,
+			"info": {
+				"name": "Иванова Анна",
+				"description": "Смотрю аниме",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 205,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663668572_42-mykaleidoscope-ru-p-vzglyad-lyubyashchego-muzhchini-vkontakte-47.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 206,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": true,
+				"avatar": "https://sun9-34.userapi.com/impg/99i5hHNk4eKtYqW5ueyHrrZS2mcVw8DNDaXQCA/fWfUAf8mFF4.jpg?size=1280x1280&quality=96&sign=2a214f0f17a3371fce40a910fac110de&c_uniq_tag=W3dJw15riEv6GQNmwPl_yk6aA2P_AP9PsS4hgtDRi38&type=album",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 207,
+			"info": {
+				"name": "Михаилов Михаил",
+				"description": "ЮФУ",
+				"online": true,
+				"avatar": "https://otkritkis.com/wp-content/uploads/2021/12/115-4.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 300,
+			"info": {
+				"name": "Колесникова Екатерина",
+				"description": "Обожаю сладкое",
+				"online": true,
+				"avatar": "https://klike.net/uploads/posts/2023-04/1681455785_3-73.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 301,
+			"info": {
+				"name": "Васенкова Мария",
+				"description": "Люблю сериалы",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 302,
+			"info": {
+				"name": "Максимов Максим",
+				"description": "Люблю футбол",
+				"online": true,
+				"avatar": "https://media.ladylike.gr/ldl-images/marianoout_07_2016.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 303,
+			"info": {
+				"name": "Иванова Анна",
+				"description": "Смотрю аниме",
+				"online": true,
+				"avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 304,
+			"info": {
+				"name": "Дмитров Дмитрий",
+				"description": "",
+				"online": false,
+				"avatar": "https://stihi.ru/pics/2018/01/17/9496.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		},
+		{
+			"id": 305,
+			"info": {
+				"name": "Александров Александр",
+				"description": "Школа №49",
+				"online": false,
+				"avatar": "https://www.inpearls.ru/img/pearls/1602246-4186.jpg",
+				"dateOfBirth": "30.05.2001",
+				"city": "Москва",
+				"education": "РУТ МИИТ",
+				"friendsCount": 20
+			},
+			"messages": [],
+			"posts": []
+		}
+	]
+}
