@@ -1,5 +1,5 @@
 import styles from './UserOutgoing.module.scss'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const UserOutgoing = ({ user, ...props }) => {
@@ -9,9 +9,9 @@ const UserOutgoing = ({ user, ...props }) => {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.avatar_wrapper}>
-				<NavLink to={`/profile/${user.id}`}>
+				<Link to={`/profile/${user.id}`}>
 					<img src={user.info.avatar} alt="Avatar" />
-				</NavLink>
+				</Link>
 				{user.info.online === true ? <div className={styles.online_true}><span></span></div> : null}
 			</div>
 			<div className={styles.info}>

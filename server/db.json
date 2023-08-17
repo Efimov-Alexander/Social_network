@@ -594,42 +594,12 @@
   "applicationsIncoming": [],
   "applicationsOutgoing": [
     {
-      "id": 301,
-      "info": {
-        "name": "Васенкова Мария",
-        "description": "Люблю сериалы",
-        "online": true,
-        "avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
-        "dateOfBirth": "30.05.2001",
-        "city": "Москва",
-        "education": "РУТ МИИТ",
-        "friendsCount": 20
-      },
-      "messages": [],
-      "posts": []
-    },
-    {
       "id": 302,
       "info": {
         "name": "Максимов Максим",
         "description": "Люблю футбол",
         "online": true,
         "avatar": "https://media.ladylike.gr/ldl-images/marianoout_07_2016.jpg",
-        "dateOfBirth": "30.05.2001",
-        "city": "Москва",
-        "education": "РУТ МИИТ",
-        "friendsCount": 20
-      },
-      "messages": [],
-      "posts": []
-    },
-    {
-      "id": 303,
-      "info": {
-        "name": "Иванова Анна",
-        "description": "Смотрю аниме",
-        "online": true,
-        "avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
         "dateOfBirth": "30.05.2001",
         "city": "Москва",
         "education": "РУТ МИИТ",
@@ -758,6 +728,20 @@
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
           "message": "d",
           "date": "12:40",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 12,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "f",
+          "date": "18:42",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 13,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "d",
+          "date": "18:42",
           "name": "Иванов Иван"
         }
       ],
@@ -908,6 +892,13 @@
           "message": "zxc",
           "date": "12:39",
           "name": "Иванов Иван"
+        },
+        {
+          "id": 14,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "xc",
+          "date": "13:48",
+          "name": "Иванов Иван"
         }
       ],
       "posts": [
@@ -949,9 +940,38 @@
           "message": "fsdfsd",
           "date": "16:39",
           "name": "Иванов Иван"
+        },
+        {
+          "id": 3,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsdgs",
+          "date": "13:48",
+          "name": "Иванов Иван"
         }
       ],
-      "posts": []
+      "posts": [
+        {
+          "id": 2,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "xz",
+          "name": "Сергей Сергеев",
+          "date": "12 Август 16:39",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fsd",
+          "name": "Сергей Сергеев",
+          "date": "12 Август 16:39",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        }
+      ],
+      "newPostText": ""
     },
     {
       "id": 9,
@@ -1168,6 +1188,29 @@
         }
       ],
       "newPostText": ""
+    },
+    {
+      "id": 204,
+      "info": {
+        "name": "Иванова Анна",
+        "description": "Смотрю аниме",
+        "online": true,
+        "avatar": "https://mykaleidoscope.ru/uploads/posts/2021-11/1636647580_60-mykaleidoscope-ru-p-krasivie-devushki-v-ochkakh-devushka-krasi-62.jpg",
+        "dateOfBirth": "30.05.2001",
+        "city": "Москва",
+        "education": "РУТ МИИТ",
+        "friendsCount": 20
+      },
+      "messages": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsdfsd",
+          "date": "13:48",
+          "name": "Иванов Иван"
+        }
+      ],
+      "posts": []
     }
   ],
   "users": [
@@ -1179,7 +1222,7 @@
         "description": "fasdfasfaсczfccc14dddsdf",
         "online": true,
         "dateOfBirth": "30.05.2001сczccc13ddsdf",
-        "city": "Москвасczccccc16dddsdf",
+        "city": "fd",
         "education": "РУТ МИИТсczcc17ddsf",
         "friendsCount": 20,
         "editMode": true
@@ -1576,6 +1619,20 @@
           "message": "d",
           "date": "12:40",
           "name": "Иванов Иван"
+        },
+        {
+          "id": 12,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "f",
+          "date": "18:42",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 13,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "d",
+          "date": "18:42",
+          "name": "Иванов Иван"
         }
       ],
       "posts": [
@@ -1725,6 +1782,13 @@
           "message": "zxc",
           "date": "12:39",
           "name": "Иванов Иван"
+        },
+        {
+          "id": 14,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "xc",
+          "date": "13:48",
+          "name": "Иванов Иван"
         }
       ],
       "posts": [
@@ -1823,6 +1887,13 @@
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
           "message": "fsdfsd",
           "date": "16:39",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 3,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsdgs",
+          "date": "13:48",
           "name": "Иванов Иван"
         }
       ],
@@ -2095,8 +2166,38 @@
         "education": "РУТ МИИТ",
         "friendsCount": 20
       },
-      "messages": [],
-      "posts": []
+      "messages": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsdfsd",
+          "date": "13:48",
+          "name": "Иванов Иван"
+        }
+      ],
+      "posts": [
+        {
+          "id": 2,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "zzzzzzzzzzzz",
+          "name": "Сергей Сергеев",
+          "date": "14 Август 13:48",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fsdfs",
+          "name": "Сергей Сергеев",
+          "date": "14 Август 13:48",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        }
+      ],
+      "newPostText": ""
     },
     {
       "id": 205,

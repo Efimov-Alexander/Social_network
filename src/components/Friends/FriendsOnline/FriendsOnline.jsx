@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Search from '../../Search/Search'
 import styles from './FriendsOnline.module.scss'
 import Loader from '../../common/Loader/Loader'
@@ -20,16 +20,16 @@ const FriendsOnline = ({ friends, ...props }) => {
 			<Search />
 			<div className={`_friends-bar`}>
 				<div className={styles.friends_count_body}>
-					<NavLink
+					<Link
 						to="/friends/all"
 						className={'_button-grey'}>Все друзья {friends.all.length}
-					</NavLink>
+					</Link>
 					<div className='_button-active'>Друзья онлайн <span>{friends.online.length}</span></div>
 				</div>
-				<NavLink
+				<Link
 					className={'_button-blue'}
 					to="/applications/incoming">Заявки в друзья
-				</NavLink>
+				</Link>
 			</div>
 			{UsersElements}
 		</div>

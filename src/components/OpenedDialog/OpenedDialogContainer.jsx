@@ -9,11 +9,14 @@ import { compose } from "redux";
 const OpenedDialogContainer = (props) => {
 
 	const [messageText, setMessageText] = useState("")
+	let openedDialogId = props.params.openedDialogId
+
 
 	useEffect(() => {
-		let openedDialogId = props.router.params.openedDialogId
+		if (!openedDialogId) return
 		props.getOpenedDilog(openedDialogId)
-	}, [])
+	}, [openedDialogId])
+
 
 	return (<OpenedDialog
 		messageText={messageText}

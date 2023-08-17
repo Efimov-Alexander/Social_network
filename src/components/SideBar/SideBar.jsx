@@ -25,7 +25,7 @@ const SideBar = (props) => {
 					svg={friendsIcon} />
 				<Item
 					value="Музыка"
-					url='/Musics'
+					url='/musics'
 					svg={musicsIcon} />
 				<Item
 					value="Сообщества"

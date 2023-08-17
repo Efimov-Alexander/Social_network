@@ -8,9 +8,9 @@ import { withRouter } from "../../hoc/withRouter";
 const ProfileContainer = (props) => {
 
 	useEffect(() => {
-		let profileId = props.router.params.profileId
+		let profileId = props.params.profileId
 		props.getProfile(profileId)
-	}, [props.router.params.profileId])
+	}, [props.params.profileId])
 
 	return (<Profile
 		isLoading={props.isLoading}

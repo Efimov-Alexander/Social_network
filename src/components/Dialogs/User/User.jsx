@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styles from './User.module.scss'
 
 const User = (props) => {
 	return (
 		<li className={styles.item}>
-			<NavLink to={`/dialogs/${props.id}`} className={styles.link}>
+			<Link to={`/dialogs/${props.id}`} className={styles.link}>
 				<div className={styles.link_body}>
 					<div className={styles.avatar_wrapper}>
 						<img src={props.info.avatar} alt="Avatar" className={styles.avatar} />
@@ -22,7 +22,7 @@ const User = (props) => {
 						</div>
 					</div>
 				</div>
-			</NavLink>
+			</Link>
 		</li >
 	)
 }

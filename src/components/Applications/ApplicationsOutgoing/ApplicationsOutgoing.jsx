@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Search from '../../Search/Search'
 import styles from './ApplicationsOutgoing.module.scss'
 import UserOutgoing from '../ApplicationsOutgoing/UserOutgoing/UserOutgoing'
@@ -19,14 +19,14 @@ const ApplicationsOutgoing = ({ applications, ...props }) => {
 			<Search />
 			<div className={`_friends-bar`}>
 				<div className={styles.applications_count_body}>
-					<NavLink
+					<Link
 						to="/applications/incoming"
-						className={'_button-grey'}>Входящие {applications.incoming.length}</NavLink>
+						className={'_button-grey'}>Входящие {applications.incoming.length}</Link>
 					<div className='_button-active'>Исходящие <span>{applications.outgoing.length}</span></div>
 				</div>
-				<NavLink
+				<Link
 					className={'_button-blue'}
-					to="/friends/all">Мои друзья</NavLink>
+					to="/friends/all">Мои друзья</Link>
 			</div>
 			{UsersElements}
 		</div>

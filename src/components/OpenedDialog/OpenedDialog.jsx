@@ -6,7 +6,7 @@ import buttonCall from '../../aseets/svg/phone-call.svg'
 import nullMessages from '../../aseets/svg/messages.svg'
 import buttonAddContent from '../../aseets/svg/button-add-content.svg'
 import buttonSubmit from '../../aseets/svg/button-submit.svg'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Loader from '../common/Loader/Loader'
 
 
@@ -27,13 +27,13 @@ const OpenedDialog = ({ user, ...props }) => {
 			{props.isLoading && <Loader />}
 			<div className={styles.header}>
 				<div className={styles.user_wrapper}>
-					<button className={`${styles.button_back} ${styles.button}`}>
+					<Link to={'/dialogs'} className={`${styles.button_back} ${styles.button}`}>
 						<img src={buttonBack} alt="ButtonBack" />
-					</button>
+					</Link>
 					<div className={styles.avatar_wrapper}>
-						<NavLink to={`/profile/${user.id}`}>
+						<Link to={`/profile/${user.id}`}>
 							<img src={user.info.avatar} alt="Avatar" />
-						</NavLink>
+						</Link>
 					</div>
 					<div className={styles.name_status_wrapper}>
 						<div className={styles.name}>{user.info.name}</div>
