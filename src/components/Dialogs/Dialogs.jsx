@@ -5,7 +5,6 @@ import Loader from '../common/Loader/Loader'
 
 
 const Dialogs = (props) => {
-
 	let DialogsElements = props.dialogs.map(user => {
 		return <User
 			info={user.info}

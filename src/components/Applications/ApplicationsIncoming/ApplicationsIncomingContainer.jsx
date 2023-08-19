@@ -1,37 +1,24 @@
-import { connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import ApplicationsIncoming from "./ApplicationsIncoming";
-import {
-	acceptSomeoneApplication,
-	rejectSomeoneApplication,
-	getApplications,
-} from "../../../redux/friendsReducer";
 import React, { useEffect } from "react";
+import { getApplications } from "../../../redux/friends.slice";
 
-const ApplicationsIncomingContainer = (props) => {
+const ApplicationsIncomingContainer = () => {
+
+	const { incoming, outgoing } = useSelector(state => state.reducers.friendsPage.applications)
+	const { isLoading } = useSelector(state => state.reducers.friendsPage)
+	const dispatch = useDispatch()
+
 	useEffect(() => {
-		props.getApplications()
+		dispatch(getApplications())
 	}, [])
 
 	return (
 		<ApplicationsIncoming
-			applications={props.applications}
-			isLoading={props.isLoading}
-			acceptSomeoneApplication={props.acceptSomeoneApplication}
-			rejectSomeoneApplication={props.rejectSomeoneApplication}
-		/>
+			incoming={incoming}
+			outgoing={outgoing}
+			isLoading={isLoading} />
 	)
 }
 
-const mapStateToProps = (state) => {
-	return {
-		isLoading: state.friendsPage.isLoading,
-		applications: state.friendsPage.applications,
-	}
-}
-
-export default connect(mapStateToProps, {
-	acceptSomeoneApplication,
-	rejectSomeoneApplication,
-	getApplications,
-})(ApplicationsIncomingContainer)
-
+export default ApplicationsIncomingContainer

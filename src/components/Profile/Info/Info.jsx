@@ -7,14 +7,14 @@ import { Name } from './Name/Name'
 import Activities from './Activities/Activities'
 
 
-const Info = ({ user, info, setInfo, ...props }) => {
+const Info = ({ profile, info, setInfo, ...props }) => {
 
 	return (
 		<div className={styles.wrapper}>
-			<Name user={user} />
+			<Name profile={profile} />
 			<div className={styles.info_wrapper}>
 				<h3 className={styles.subtitle}>Личная информация</h3>
-				{user.info.description && <Description
+				{profile.info.description && <Description
 					description={info.description}
 					editMode={info.editMode}
 					setDescription={setInfo.setDescription} />}
@@ -30,14 +30,14 @@ const Info = ({ user, info, setInfo, ...props }) => {
 					education={info.education}
 					editMode={info.editMode}
 					setEducation={setInfo.setEducation} />
-				{user.id === 10000 && <button
+				{profile.id === 10000 && <button
 					onClick={props.activateEditMode}
 					className={styles.button}>Редактировать профиль</button>}
 				{info.editMode && <button
 					onClick={props.deActivateEditMode}
 					className={`${styles.button} ${styles.save_button}`}>Сохранить</button>}
 			</div>
-			<Activities user={user} />
+			<Activities profile={profile} />
 		</div>
 	)
 }

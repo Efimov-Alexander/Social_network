@@ -4,14 +4,12 @@ import styles from './ApplicationsIncoming.module.scss'
 import UserIncoming from './UserIncoming/UserIncoming'
 import Loader from '../../common/Loader/Loader'
 
-const ApplicationsIncoming = ({ applications, ...props }) => {
+const ApplicationsIncoming = (props) => {
 
-	let UsersElements = applications.incoming.map((user) => {
+	let UsersElements = props.incoming.map((user) => {
 		return <UserIncoming
 			user={user}
-			key={user.id}
-			rejectSomeoneApplication={props.rejectSomeoneApplication}
-			acceptSomeoneApplication={props.acceptSomeoneApplication} />
+			key={user.id} />
 	})
 
 	return (
@@ -20,10 +18,10 @@ const ApplicationsIncoming = ({ applications, ...props }) => {
 			<Search />
 			<div className={`_friends-bar`}>
 				<div className={styles.applications_count_body}>
-					<div className='_button-active'>Входящие <span>{applications.incoming.length}</span></div>
+					<div className='_button-active'>Входящие <span>{props.incoming.length}</span></div>
 					<Link
 						className={'_button-grey'}
-						to="/applications/outgoing">Исходящие {applications.outgoing.length}</Link>
+						to="/applications/outgoing">Исходящие {props.outgoing.length}</Link>
 				</div>
 				<Link
 					className={'_button-blue'}

@@ -52,17 +52,17 @@ export const profileAPI = {
 			.get(`users/${userId}`)
 		return response.data
 	},
-	putProfileInfo: async (newInfo, user) => {
+	putProfileInfo: async (newInfo, profile) => {
 		const response = await instance
-			.put(`users/${user.id}`,
-				{ ...user, info: { ...user.info, ...newInfo, } })
+			.put(`users/${profile.id}`,
+				{ ...profile, info: { ...profile.info, ...newInfo, } })
 		return response.data
 	},
-	putProfilePost: async (post, user) => {
+	putProfilePost: async (post, profile) => {
 		const response = await instance
-			.put(`users/${user.id}`, {
-				...user,
-				posts: [post, ...user.posts],
+			.put(`users/${profile.id}`, {
+				...profile,
+				posts: [post, ...profile.posts],
 				newPostText: ""
 			})
 		return response.data

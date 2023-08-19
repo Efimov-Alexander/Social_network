@@ -1,10 +1,12 @@
 import styles from './UserOutgoing.module.scss'
 import { Link } from 'react-router-dom'
+import { cancelMyApplication } from '../../../../redux/friends.slice'
+import { useDispatch } from 'react-redux'
 
 
-const UserOutgoing = ({ user, ...props }) => {
+const UserOutgoing = ({ user }) => {
 
-	const onCancelMyApplication = () => props.cancelMyApplication(user.id)
+	const dispatch = useDispatch()
 
 	return (
 		<div className={styles.wrapper}>
@@ -19,7 +21,7 @@ const UserOutgoing = ({ user, ...props }) => {
 				<div className={styles.description}>{user.info.description}</div>
 				<div className={styles.actions}>
 					<button
-						onClick={onCancelMyApplication}
+						onClick={() => dispatch(cancelMyApplication(user.id))}
 						className={`${styles.cancel_button} _button-grey`}>Отменить заявку</button>
 				</div>
 			</div>

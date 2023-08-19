@@ -1,25 +1,22 @@
-import { connect } from "react-redux";
+import { useDispatch } from "react-redux";
 import Dialogs from "./Dialogs";
 import React, { useEffect } from "react";
-import { getDialogs } from "../../redux/dialogsReducer";
+import { getDialogs } from "../../redux/dialogs.slice";
+import { useSelector } from "react-redux";
 
-const DialogsContainer = (props) => {
+
+const DialogsContainer = () => {
+	
+	const { isLoading, dialogs } = useSelector(state => state.reducers.dialogsPage)
+	const dispatch = useDispatch()
 
 	useEffect(() => {
-		props.getDialogs()
+		dispatch(getDialogs())
 	}, [])
 
 	return <Dialogs
-		isLoading={props.isLoading}
-		dialogs={props.dialogs} />
-}
-const mapStateToProps = (state) => {
-	return {
-		dialogs: state.dialogsPage.dialogs,
-		isLoading: state.dialogsPage.isLoading,
-	}
+		isLoading={isLoading}
+		dialogs={dialogs} />
 }
 
-export default connect(mapStateToProps, {
-	getDialogs,
-})(DialogsContainer)
+export default DialogsContainer

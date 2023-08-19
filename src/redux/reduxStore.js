@@ -1,9 +1,9 @@
-import { applyMiddleware, combineReducers, createStore } from 'redux'
-import profileReducer from './profileReducer'
-import dialogsReducer from './dialogsReducer'
-import friendsReducer from './friendsReducer'
-import openedDialogReducer from './openedDialogReducer'
-import thunk from 'redux-thunk'
+import { combineReducers } from 'redux'
+import profileReducer from './profile.slice'
+import dialogsReducer from './dialogs.slice'
+import friendsReducer from './friends.slice'
+import openedDialogReducer from './openedDialog.slice'
+import { configureStore } from '@reduxjs/toolkit'
 
 let reducers = combineReducers({
 	profilePage: profileReducer,
@@ -12,8 +12,9 @@ let reducers = combineReducers({
 	friendsPage: friendsReducer,
 })
 
-
-let store = createStore(reducers, applyMiddleware(thunk))
+let store = configureStore({
+	reducer: { reducers }
+})
 
 window.store = store
 

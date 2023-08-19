@@ -1,16 +1,16 @@
-import { compose } from 'redux'
-import { connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import React, { useState, useEffect } from 'react'
-import { updateInfo } from '../../../redux/profileReducer'
+import { updateInfo } from '../../../redux/profile.slice'
 import Info from './Info';
 
-const InfoContainer = ({ user, ...props }) => {
-
+const InfoContainer = () => {
+	const { profile } = useSelector(state => state.reducers.profilePage)
+	const dispatch = useDispatch()
 	const [editMode, setEditMode] = useState(false)
-	const [city, setCity] = useState(user.info.city)
-	const [dateOfBirth, setDateOfBirth] = useState(user.info.dateOfBirth)
-	const [description, setDescription] = useState(user.info.description)
-	const [education, setEducation] = useState(user.info.education)
+	const [city, setCity] = useState(profile.info.city)
+	const [dateOfBirth, setDateOfBirth] = useState(profile.info.dateOfBirth)
+	const [description, setDescription] = useState(profile.info.description)
+	const [education, setEducation] = useState(profile.info.education)
 
 	const activateEditMode = () => {
 		setEditMode(true)
@@ -18,25 +18,28 @@ const InfoContainer = ({ user, ...props }) => {
 
 	const deActivateEditMode = () => {
 		setEditMode(false)
-		props.updateInfo({
-			editMode,
-			city,
-			dateOfBirth,
-			description,
-			education
-		}, user)
+		dispatch(updateInfo({
+			info: {
+				editMode,
+				city,
+				dateOfBirth,
+				description,
+				education
+			},
+			profile
+		}))
 	}
 
 	useEffect(() => {
-		setCity(user.info.city)
-		setDateOfBirth(user.info.dateOfBirth)
-		setDescription(user.info.description)
-		setEducation(user.info.education)
-	}, [user.info])
+		setCity(profile.info.city)
+		setDateOfBirth(profile.info.dateOfBirth)
+		setDescription(profile.info.description)
+		setEducation(profile.info.education)
+	}, [profile.info])
 
 	return (
 		<Info
-			user={user}
+			profile={profile}
 			activateEditMode={activateEditMode}
 			deActivateEditMode={deActivateEditMode}
 			setInfo={{ setEditMode, setCity, setDateOfBirth, setDescription, setEducation }}
@@ -44,12 +47,4 @@ const InfoContainer = ({ user, ...props }) => {
 	)
 }
 
-const mapStateToProps = (state) => {
-	return {
-		user: state.profilePage.profile,
-	}
-}
-
-export default compose(
-	connect(mapStateToProps, { updateInfo }),
-)(InfoContainer)
+export default InfoContainer

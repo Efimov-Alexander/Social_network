@@ -5,9 +5,8 @@ import News from './News/News'
 import Post from './Post/Post'
 import Loader from '../common/Loader/Loader'
 
-const Profile = ({ user, ...props }) => {
-
-	let PostsElements = user.posts.map((post) => {
+const Profile = ({ profile, ...props }) => {
+	let PostsElements = profile.posts.map((post) => {
 		return <Post
 			key={post.id}
 			post={post} />
@@ -17,10 +16,10 @@ const Profile = ({ user, ...props }) => {
 		<div className={styles.wrapper}>
 			{props.isLoading && <Loader />}
 			<div className={styles.user_info}>
-				<Image avatar={user.info.avatar} />
+				<Image avatar={profile.info.avatar} />
 				<InfoContainer />
 			</div>
-			<News user={user} addPost={props.addPost} />
+			<News profile={profile} />
 			<ul className={styles.posts}>
 				{PostsElements}
 			</ul>

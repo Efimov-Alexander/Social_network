@@ -1,26 +1,21 @@
-import { connect } from "react-redux";
 import FriendsAll from "./FriendsAll";
-import { getFriends } from "../../../redux/friendsReducer";
+import { getFriends } from "../../../redux/friends.slice";
 import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-const FriendsAllContainer = (props) => {
+const FriendsAllContainer = () => {
+	const { all, online } = useSelector(state => state.reducers.friendsPage.friends)
+	const { isLoading } = useSelector(state => state.reducers.friendsPage)
+	const dispatch = useDispatch()
 
 	useEffect(() => {
-		props.getFriends()
+		dispatch(getFriends())
 	}, [])
 
 	return (<FriendsAll
-		friends={props.friends}
-		isLoading={props.isLoading} />)
+		all={all}
+		online={online}
+		isLoading={isLoading} />)
 }
 
-const mapStateToProps = (state) => {
-	return {
-		friends: state.friendsPage.friends,
-		isLoading: state.friendsPage.isLoading
-	}
-}
-
-export default connect(mapStateToProps, {
-	getFriends,
-})(FriendsAllContainer)
+export default FriendsAllContainer

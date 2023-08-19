@@ -1,43 +1,25 @@
-import { connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import OpenedDialog from "./OpenedDialog";
-import { addDialog } from "../../redux/dialogsReducer"
-import { sendMessage, getOpenedDilog } from "../../redux/openedDialogReducer";
+import { sendMessage, getOpenedDilog } from "../../redux/openedDialog.slice";
 import React, { useEffect, useState } from "react";
-import { withRouter } from "../../hoc/withRouter";
-import { compose } from "redux";
+import { useParams } from "react-router-dom";
 
-const OpenedDialogContainer = (props) => {
+const OpenedDialogContainer = () => {
 
 	const [messageText, setMessageText] = useState("")
-	let openedDialogId = props.params.openedDialogId
-
+	const { openedDialogId } = useParams()
+	const { isLoading, dialog } = useSelector(state => state.reducers.openedDialogPage)
+	const dispatch = useDispatch()
 
 	useEffect(() => {
-		if (!openedDialogId) return
-		props.getOpenedDilog(openedDialogId)
+		dispatch(getOpenedDilog(openedDialogId))
 	}, [openedDialogId])
-
 
 	return (<OpenedDialog
 		messageText={messageText}
 		setMessageText={setMessageText}
-		isLoading={props.isLoading}
-		user={props.user}
-		sendMessage={props.sendMessage} />)
+		isLoading={isLoading}
+		user={dialog} />)
 }
 
-const mapStateToProps = state => {
-	return {
-		isLoading: state.openedDialogPage.isLoading,
-		user: state.openedDialogPage.dialog
-	}
-}
-
-export default compose(
-	connect(mapStateToProps, {
-		sendMessage,
-		getOpenedDilog,
-		addDialog,
-	}),
-	withRouter
-)(OpenedDialogContainer)
+export default OpenedDialogContainer

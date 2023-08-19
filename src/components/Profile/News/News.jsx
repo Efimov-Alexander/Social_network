@@ -1,19 +1,18 @@
+import { useDispatch } from 'react-redux'
 import styles from './News.module.scss'
 import React, { useState } from 'react'
+import { addPost } from '../../../redux/profile.slice'
 
 const News = (props) => {
 
-	const [text, setText] = useState("")
+	const dispatch = useDispatch()
+	const [newPostText, setText] = useState("")
 
-	const updateText = (e) => {
-		setText(e.currentTarget.value)
-	}
-
-	const addPost = () => {
-		props.addPost(props.user, text)
+	const onAddPost = async () => {
+		const profile = props.profile
+		await dispatch(addPost({ profile, newPostText }))
 		setText("")
 	}
-
 	return (
 		<div className={styles.news_wrapper}>
 			<img
@@ -21,12 +20,12 @@ const News = (props) => {
 				alt="Avatar"
 				className={styles.avatar} />
 			<textarea
-				onChange={updateText}
-				value={text}
+				onChange={e => setText(e.currentTarget.value)}
+				value={newPostText}
 				placeholder='Что у вас новго?'
 				className={styles.textarea} />
 			<button
-				onClick={addPost}
+				onClick={onAddPost}
 				className={styles.button}>Опубликовать</button>
 		</div>)
 }

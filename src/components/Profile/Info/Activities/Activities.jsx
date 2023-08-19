@@ -1,16 +1,16 @@
 import React from 'react'
 import styles from './Activities.module.scss'
 
-const Activities = ({ user }) => {
+const Activities = ({ profile }) => {
 
 	return (
 		<div className={styles.activities_wrapper}>
 			<div className={styles.activities_item}>
-				<div>{user.info.friendsCount}</div>
+				<div>{profile.info.friendsCount}</div>
 				<div>Друзья</div>
 			</div>
 			<div className={styles.activities_item}>
-				<div>{user.posts.length}</div>
+				<div>{profile.posts.length}</div>
 				<div>Записи</div>
 			</div>
 		</div>

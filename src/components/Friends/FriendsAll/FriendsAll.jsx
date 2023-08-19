@@ -4,9 +4,8 @@ import styles from './FriendsAll.module.scss'
 import Loader from '../../common/Loader/Loader'
 import User from '../User/User'
 
-const FriendsAll = ({ friends, ...props }) => {
-
-	let UsersElements = friends.all.map((user) => {
+const FriendsAll = (props) => {
+	const UsersElements = props.all.map(user => {
 		return (<User
 			info={user.info}
 			id={user.id}
@@ -19,11 +18,11 @@ const FriendsAll = ({ friends, ...props }) => {
 			<Search />
 			<div className={`_friends-bar`}>
 				<div className={styles.friends_count_body}>
-					<div className='_button-active'>Все друзья <span>{friends.all.length}</span></div>
+					<div className='_button-active'>Все друзья <span>{props.all.length}</span></div>
 					<Link
 						to="/friends/online"
 						className={'_button-grey'}>
-						Друзья онлайн {friends.online.length}
+						Друзья онлайн {props.online.length}
 					</Link>
 				</div>
 				<Link

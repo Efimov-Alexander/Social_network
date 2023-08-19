@@ -1,36 +1,22 @@
-import { connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Profile from "./Profile";
-import { getProfile, addPost, updateInfo } from "../../redux/profileReducer";
+import { getProfile } from "../../redux/profile.slice";
 import React, { useEffect } from "react";
-import { compose } from 'redux'
-import { withRouter } from "../../hoc/withRouter";
+import { useParams } from "react-router-dom";
 
-const ProfileContainer = (props) => {
+const ProfileContainer = () => {
+
+	const { isLoading, profile } = useSelector(state => state.reducers.profilePage)
+	const dispatch = useDispatch()
+	const { profileId } = useParams()
 
 	useEffect(() => {
-		let profileId = props.params.profileId
-		props.getProfile(profileId)
-	}, [props.params.profileId])
+		dispatch(getProfile(profileId))
+	}, [profileId])
 
 	return (<Profile
-		isLoading={props.isLoading}
-		updateInfo={props.updateInfo}
-		user={props.user}
-		addPost={props.addPost} />)
+		isLoading={isLoading}
+		profile={profile} />)
 }
 
-const mapStateToProps = (state) => {
-	return {
-		isLoading: state.profilePage.isLoading,
-		user: state.profilePage.profile,
-	}
-}
-
-export default compose(
-	connect(mapStateToProps, {
-		addPost,
-		getProfile,
-		updateInfo
-	}),
-	withRouter
-)(ProfileContainer)
+export default ProfileContainer

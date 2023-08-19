@@ -8,6 +8,8 @@ import buttonAddContent from '../../aseets/svg/button-add-content.svg'
 import buttonSubmit from '../../aseets/svg/button-submit.svg'
 import { Link } from 'react-router-dom'
 import Loader from '../common/Loader/Loader'
+import { useDispatch } from 'react-redux'
+import { sendMessage } from '../../redux/openedDialog.slice'
 
 
 const OpenedDialog = ({ user, ...props }) => {
@@ -17,11 +19,13 @@ const OpenedDialog = ({ user, ...props }) => {
 			key={user.id}
 			user={user} />
 	})
+	const dispatch = useDispatch()
 
-	const onValueChange = (e) => { props.setMessageText(e.target.value) }
-
-	const onSendMessage = () => { props.sendMessage(props.messageText, user, props.setMessageText) }
-
+	const onSendMessage = async () => {
+		let messageText = props.messageText
+		await dispatch(sendMessage({ messageText, user }))
+		props.setMessageText("")
+	}
 	return (
 		<div className={styles.wrapper}>
 			{props.isLoading && <Loader />}
@@ -60,7 +64,7 @@ const OpenedDialog = ({ user, ...props }) => {
 					<img src={buttonAddContent} alt="ButtonAddContent" />
 				</button>
 				<textarea
-					onChange={onValueChange}
+					onChange={(e) => props.setMessageText(e.target.value)}
 					value={props.messageText}
 					placeholder='Написать сообщение'
 					className={styles.message} />

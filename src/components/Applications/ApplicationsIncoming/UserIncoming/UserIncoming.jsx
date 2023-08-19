@@ -1,11 +1,10 @@
+import { useDispatch } from 'react-redux'
 import styles from './UserIncoming.module.scss'
 import { Link } from 'react-router-dom'
+import { acceptSomeoneApplication, rejectSomeoneApplication } from '../../../../redux/friends.slice'
 
-const UserIncoming = ({ user, ...props }) => {
-
-	const onAcceptSomeoneApplication = () => { props.acceptSomeoneApplication(user) }
-
-	const onRejectSomeoneApplication = () => { props.rejectSomeoneApplication(user.id) }
+const UserIncoming = ({ user }) => {
+	const dispatch = useDispatch()
 
 	return (
 		<div className={styles.wrapper}>
@@ -20,10 +19,10 @@ const UserIncoming = ({ user, ...props }) => {
 				<div className={styles.description}>{user.info.description}</div>
 				<div className={styles.actions}>
 					<button
-						onClick={onAcceptSomeoneApplication}
+						onClick={() => dispatch(acceptSomeoneApplication(user))}
 						className={`${styles.accept_button} _button-blue`}>Принять заявку</button>
 					<button
-						onClick={onRejectSomeoneApplication}
+						onClick={() => dispatch(rejectSomeoneApplication(user.id))}
 						className={`${styles.cancel_button} _button-grey`}>Отклонить заявку</button>
 				</div>
 			</div>

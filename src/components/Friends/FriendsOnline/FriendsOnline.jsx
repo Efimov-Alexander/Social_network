@@ -4,9 +4,9 @@ import styles from './FriendsOnline.module.scss'
 import Loader from '../../common/Loader/Loader'
 import User from '../User/User'
 
-const FriendsOnline = ({ friends, ...props }) => {
+const FriendsOnline = (props) => {
 
-	let UsersElements = friends.online.map((user) => {
+	let UsersElements = props.online.map((user) => {
 		return (
 			<User
 				info={user.info}
@@ -22,9 +22,9 @@ const FriendsOnline = ({ friends, ...props }) => {
 				<div className={styles.friends_count_body}>
 					<Link
 						to="/friends/all"
-						className={'_button-grey'}>Все друзья {friends.all.length}
+						className={'_button-grey'}>Все друзья {props.all.length}
 					</Link>
-					<div className='_button-active'>Друзья онлайн <span>{friends.online.length}</span></div>
+					<div className='_button-active'>Друзья онлайн <span>{props.online.length}</span></div>
 				</div>
 				<Link
 					className={'_button-blue'}
