@@ -1,19 +1,21 @@
-import { combineReducers } from 'redux'
-import profileReducer from './profile.slice'
-import dialogsReducer from './dialogs.slice'
-import friendsReducer from './friends.slice'
-import openedDialogReducer from './openedDialog.slice'
-import { configureStore } from '@reduxjs/toolkit'
+import { combineReducers, configureStore } from '@reduxjs/toolkit'
+import { api } from './api/api'
+import { createLogger } from 'redux-logger'
 
-let reducers = combineReducers({
-	profilePage: profileReducer,
-	dialogsPage: dialogsReducer,
-	openedDialogPage: openedDialogReducer,
-	friendsPage: friendsReducer,
+const logger = createLogger({
+	collapsed: true,
 })
 
-let store = configureStore({
-	reducer: { reducers }
+const reducers = combineReducers({
+	[api.reducerPath]: api.reducer,
+})
+
+
+export const store = configureStore({
+	reducer: reducers,
+	middleware: (GetDefaultMiddleware) => GetDefaultMiddleware()
+		.concat(api.middleware)
+		.concat(logger)
 })
 
 window.store = store

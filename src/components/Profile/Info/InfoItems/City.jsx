@@ -1,10 +1,12 @@
 import styles from './InfoItems.module.scss'
 import React from 'react'
 
-const City = (props) => {
-
+const City = ({info, ...props}) => {
 	const onCityChange = (e) => {
-		props.setCity(e.currentTarget.value)
+		props.setInfo({
+			...info,
+			city: e.currentTarget.value
+		})
 	}
 
 	return (
@@ -14,9 +16,9 @@ const City = (props) => {
 				<input
 					className={styles.input}
 					onChange={onCityChange}
-					value={props.city} />
+					value={info.city} />
 				:
-				<div >{props.city}</div>}
+				<div >{info.city}</div>}
 		</div>)
 }
 

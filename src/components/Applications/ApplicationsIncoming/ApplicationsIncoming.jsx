@@ -6,11 +6,11 @@ import Loader from '../../common/Loader/Loader'
 
 const ApplicationsIncoming = (props) => {
 
-	let UsersElements = props.incoming.map((user) => {
+	let UsersElements = props.incoming ? props.incoming.map((user) => {
 		return <UserIncoming
 			user={user}
 			key={user.id} />
-	})
+	}) : <div>Users not found</div>
 
 	return (
 		<div className={styles.wrapper}>
@@ -18,10 +18,12 @@ const ApplicationsIncoming = (props) => {
 			<Search />
 			<div className={`_friends-bar`}>
 				<div className={styles.applications_count_body}>
-					<div className='_button-active'>Входящие <span>{props.incoming.length}</span></div>
+					<div className='_button-active'>Входящие <span>{props.incoming ?
+						props.incoming.length : 0}</span></div>
 					<Link
 						className={'_button-grey'}
-						to="/applications/outgoing">Исходящие {props.outgoing.length}</Link>
+						to="/applications/outgoing">Исходящие {props.outgoing ?
+							props.outgoing.length : 0} </Link>
 				</div>
 				<Link
 					className={'_button-blue'}

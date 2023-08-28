@@ -1,11 +1,13 @@
 import styles from './InfoItems.module.scss'
 import React from 'react'
 
-const DateOfBirth = (props) => {
+const DateOfBirth = ({info, ...props}) => {
 
 	const onDateOfBirthChange = (e) => {
-		let newDateOfBirth = e.currentTarget.value
-		props.setDateOfBirth(newDateOfBirth)
+		props.setInfo({
+			...info,
+			dateOfBirth: e.currentTarget.value
+		})
 	}
 
 	return (
@@ -15,9 +17,9 @@ const DateOfBirth = (props) => {
 				<input
 					className={styles.input}
 					onChange={onDateOfBirthChange}
-					value={props.dateOfBirth} />
+					value={info.dateOfBirth} />
 				:
-				<div>{props.dateOfBirth}</div>}
+				<div>{info.dateOfBirth}</div>}
 		</div>)
 }
 

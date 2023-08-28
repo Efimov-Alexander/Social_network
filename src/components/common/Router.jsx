@@ -6,8 +6,8 @@ import FriendsAllContainer from '../Friends/FriendsAll/FriendsAllContainer';
 import FriendsOnlineContainer from '../Friends/FriendsOnline/FriendsOnlineContainer';
 import ApplicationsIncomingContainer from '../Applications/ApplicationsIncoming/ApplicationsIncomingContainer';
 import ApplicationsOutgoingContainer from '../Applications/ApplicationsOutgoing/ApplicationsOutgoingContainer';
-import DialogsContainer from '../Dialogs/DialogsContainer';
 import { Routes, Route, Navigate } from 'react-router-dom';
+import Dialogs from '../Dialogs/Dialogs';
 
 
 const Router = () => {
@@ -16,7 +16,7 @@ const Router = () => {
 			<Route path="/" element={<Navigate to="/profile/10000" />} />
 			<Route path='/profile/:profileId' Component={ProfileContainer} />
 
-			<Route path='/dialogs' Component={DialogsContainer} />
+			<Route path='/dialogs' Component={Dialogs} />
 			<Route path='/dialogs/:openedDialogId' Component={OpenedDialogContainer} />
 
 			<Route path='/friends/all' Component={FriendsAllContainer} />

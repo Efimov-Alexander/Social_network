@@ -1,11 +1,13 @@
 import styles from './InfoItems.module.scss'
 import React from 'react'
 
-const Education = (props) => {
+const Education = ({ info, ...props }) => {
 
 	const onEducationChange = (e) => {
-		let newEducation = e.currentTarget.value
-		props.setEducation(newEducation)
+		props.setInfo({
+			...info,
+			education: e.currentTarget.value
+		})
 	}
 
 	return (
@@ -15,9 +17,9 @@ const Education = (props) => {
 				<input
 					className={styles.input}
 					onChange={onEducationChange}
-					value={props.education} />
+					value={info.education} />
 				:
-				<div >{props.education}</div>}
+				<div >{info.education}</div>}
 		</div>)
 }
 

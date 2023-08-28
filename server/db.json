@@ -250,6 +250,21 @@
       "posts": []
     },
     {
+      "id": 200,
+      "info": {
+        "name": "Артемов Артем",
+        "description": "Люблю музыку",
+        "online": true,
+        "avatar": "https://klike.net/uploads/posts/2023-02/1675240466_3-56.jpg",
+        "dateOfBirth": "30.05.2001",
+        "city": "Москва",
+        "education": "РУТ МИИТ",
+        "friendsCount": 20
+      },
+      "messages": [],
+      "posts": []
+    },
+    {
       "id": 201,
       "info": {
         "name": "Шапошникова Анастасия",
@@ -271,36 +286,6 @@
         "description": "Люблю футбол",
         "online": true,
         "avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
-        "dateOfBirth": "30.05.2001",
-        "city": "Москва",
-        "education": "РУТ МИИТ",
-        "friendsCount": 20
-      },
-      "messages": [],
-      "posts": []
-    },
-    {
-      "id": 203,
-      "info": {
-        "name": "Максимов Максим",
-        "description": "Люблю футбол",
-        "online": true,
-        "avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
-        "dateOfBirth": "30.05.2001",
-        "city": "Москва",
-        "education": "РУТ МИИТ",
-        "friendsCount": 20
-      },
-      "messages": [],
-      "posts": []
-    },
-    {
-      "id": 205,
-      "info": {
-        "name": "Дмитров Дмитрий",
-        "description": "",
-        "online": false,
-        "avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663668572_42-mykaleidoscope-ru-p-vzglyad-lyubyashchego-muzhchini-vkontakte-47.jpg",
         "dateOfBirth": "30.05.2001",
         "city": "Москва",
         "education": "РУТ МИИТ",
@@ -486,6 +471,21 @@
       "posts": []
     },
     {
+      "id": 200,
+      "info": {
+        "name": "Артемов Артем",
+        "description": "Люблю музыку",
+        "online": true,
+        "avatar": "https://klike.net/uploads/posts/2023-02/1675240466_3-56.jpg",
+        "dateOfBirth": "30.05.2001",
+        "city": "Москва",
+        "education": "РУТ МИИТ",
+        "friendsCount": 20
+      },
+      "messages": [],
+      "posts": []
+    },
+    {
       "id": 202,
       "info": {
         "name": "Максимовафыа Максим",
@@ -499,14 +499,16 @@
       },
       "messages": [],
       "posts": []
-    },
+    }
+  ],
+  "applicationsIncoming": [
     {
-      "id": 203,
+      "id": 206,
       "info": {
-        "name": "Максимов Максим",
-        "description": "Люблю футбол",
+        "name": "Александров Александр",
+        "description": "Школа №49",
         "online": true,
-        "avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
+        "avatar": "https://sun9-34.userapi.com/impg/99i5hHNk4eKtYqW5ueyHrrZS2mcVw8DNDaXQCA/fWfUAf8mFF4.jpg?size=1280x1280&quality=96&sign=2a214f0f17a3371fce40a910fac110de&c_uniq_tag=W3dJw15riEv6GQNmwPl_yk6aA2P_AP9PsS4hgtDRi38&type=album",
         "dateOfBirth": "30.05.2001",
         "city": "Москва",
         "education": "РУТ МИИТ",
@@ -514,9 +516,7 @@
       },
       "messages": [],
       "posts": []
-    }
-  ],
-  "applicationsIncoming": [
+    },
     {
       "id": 207,
       "info": {
@@ -534,6 +534,21 @@
     }
   ],
   "applicationsOutgoing": [
+    {
+      "id": 304,
+      "info": {
+        "name": "Дмитров Дмитрий",
+        "description": "",
+        "online": false,
+        "avatar": "https://stihi.ru/pics/2018/01/17/9496.jpg",
+        "dateOfBirth": "30.05.2001",
+        "city": "Москва",
+        "education": "РУТ МИИТ",
+        "friendsCount": 20
+      },
+      "messages": [],
+      "posts": []
+    },
     {
       "id": 305,
       "info": {
@@ -602,19 +617,60 @@
         {
           "id": 6,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsd",
-          "date": "18:22",
+          "message": "fasdfsad",
+          "date": "16:36",
           "name": "Иванов Иван"
         },
         {
           "id": 7,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsdfsd",
-          "date": "18:28",
+          "message": "afsfdsafdsafdas",
+          "date": "16:37",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 8,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsdfsdfsadgdfsg",
+          "date": "16:42",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 9,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fadsfsadfsa",
+          "date": "11:26",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 10,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "vzxcvxczvxzcv",
+          "date": "11:26",
           "name": "Иванов Иван"
         }
       ],
       "posts": [
+        {
+          "id": 5,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "vzxcvzxcv",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:13",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 4,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fasdf",
+          "name": "Сергей Сергеев",
+          "date": "27 Август 17:40",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
         {
           "id": 3,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
@@ -698,29 +754,33 @@
         {
           "id": 6,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "dsfsd",
-          "date": "18:22",
+          "message": "fasdfsad",
+          "date": "16:37",
           "name": "Иванов Иван"
         },
         {
           "id": 7,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsdfs",
-          "date": "18:30",
+          "message": "fsdafsa",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 8,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "gsdfgfsdgdsf",
+          "date": "16:40",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 9,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fasdfasd",
+          "date": "11:22",
           "name": "Иванов Иван"
         }
       ],
       "posts": [
-        {
-          "id": 2,
-          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fds",
-          "name": "Сергей Сергеев",
-          "date": "19 Август 18:22",
-          "img": "",
-          "countLikes": 0,
-          "countReposts": 0
-        },
         {
           "id": 1,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
@@ -731,8 +791,7 @@
           "countLikes": 0,
           "countReposts": 0
         }
-      ],
-      "newPostText": ""
+      ]
     },
     {
       "id": 4,
@@ -750,12 +809,145 @@
         {
           "id": 1,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsdf",
-          "date": "18:22",
+          "message": "fasdfsad",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 2,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsadfsad",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 3,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "vzxcvxzcvcxzv",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 4,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "vzxbnadfgas",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 5,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "sadffsadfasdfasdf",
+          "date": "11:14",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 6,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "rweqfgqewrgfvqergvqe",
+          "date": "11:14",
+          "name": "Иванов Иван"
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "vzxcvzxcv",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:14",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "info": {
+        "name": "Дмитров Дмитрий",
+        "description": "",
+        "online": false,
+        "avatar": "https://cdn1.flamp.ru/3e1b70aa7f6e3fc3bafdf9943df067e2.jpg",
+        "dateOfBirth": "30.05.2001",
+        "city": "Москва",
+        "education": "РУТ МИИТ",
+        "friendsCount": 20
+      },
+      "messages": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "gsfdgsd",
+          "date": "16:40",
           "name": "Иванов Иван"
         }
       ],
       "posts": []
+    },
+    {
+      "id": 6,
+      "info": {
+        "name": "Максимов Максим",
+        "description": "Люблю футбол",
+        "online": true,
+        "avatar": "https://kartinkin.net/uploads/posts/2022-02/1645776970_15-kartinkin-net-p-brutalnie-kartinki-16.jpg",
+        "dateOfBirth": "30.05.2001",
+        "city": "Москва",
+        "education": "РУТ МИИТ",
+        "friendsCount": 20
+      },
+      "messages": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "sdfagsadgasdgfas",
+          "date": "16:43",
+          "name": "Иванов Иван"
+        }
+      ],
+      "posts": []
+    },
+    {
+      "id": 202,
+      "info": {
+        "name": "Максимовафыа Максим",
+        "description": "Люблю футбол",
+        "online": true,
+        "avatar": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666311261_50-mykaleidoscope-ru-p-gordost-za-cheloveka-instagram-54.jpg",
+        "dateOfBirth": "30.05.2001",
+        "city": "Москва",
+        "education": "РУТ МИИТ",
+        "friendsCount": 20
+      },
+      "messages": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsadfasdfasdf",
+          "date": "11:14",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 2,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fasdvcasdvas",
+          "date": "11:16",
+          "name": "Иванов Иван"
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fsadvbdfbre",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:14",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        }
+      ]
     }
   ],
   "users": [
@@ -764,21 +956,110 @@
       "info": {
         "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
         "name": "Иван Иванов",
-        "description": "fasdfasfaсczfcsdcsdcccsdf",
+        "description": "fasfafasdfas",
         "online": true,
-        "dateOfBirth": "30.05.2001сczcccccsdf",
-        "city": "Москвасczcccscsdfsfd",
-        "education": "РУТ МИИТсczccsdcsdcsfdf",
-        "friendsCount": 20,
-        "editMode": true
+        "dateOfBirth": "fasdfsdfsdaff",
+        "city": "dffasd",
+        "education": "dfsdasasd",
+        "friendsCount": 20
       },
       "posts": [
         {
+          "id": 37,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "zvzcxvxzcv",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:26",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 36,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fadsfasd",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:16",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 35,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "vasdfvbdsfbgfsdagfadsgfv",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:15",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 34,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "gsdfgfdgdfgdfgdf",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:13",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 33,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "vsafasdg",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:13",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 32,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fasdfsad",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:13",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 31,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "vdafvdafs",
+          "name": "Сергей Сергеев",
+          "date": "27 Август 17:40",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 30,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "vzxc",
+          "name": "Сергей Сергеев",
+          "date": "27 Август 17:40",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
+          "id": 29,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fsdfsd",
+          "name": "Сергей Сергеев",
+          "date": "27 Август 17:40",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
           "id": 28,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fsdfs",
+          "text": "asdgvxcvcxava",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:30",
+          "date": "27 Август 17:32",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
@@ -786,9 +1067,9 @@
         {
           "id": 27,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "sdfsd",
+          "text": "fasdfas",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:25",
+          "date": "27 Август 17:31",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
@@ -796,9 +1077,9 @@
         {
           "id": 26,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fsd",
+          "text": "asdfa",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:22",
+          "date": "27 Август 17:31",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
@@ -806,9 +1087,9 @@
         {
           "id": 25,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fasd",
+          "text": "vzxcvzx",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:22",
+          "date": "27 Август 17:31",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
@@ -816,9 +1097,9 @@
         {
           "id": 24,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "few",
+          "text": "fasdfas",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:21",
+          "date": "27 Август 17:31",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
@@ -1106,25 +1387,56 @@
         {
           "id": 6,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsd",
-          "date": "18:22",
+          "message": "fasdfsad",
+          "date": "16:36",
           "name": "Иванов Иван"
         },
         {
           "id": 7,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsdfsd",
-          "date": "18:28",
+          "message": "afsfdsafdsafdas",
+          "date": "16:37",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 8,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsdfsdfsadgdfsg",
+          "date": "16:42",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 9,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fadsfsadfsa",
+          "date": "11:26",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 10,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "vzxcvxczvxzcv",
+          "date": "11:26",
           "name": "Иванов Иван"
         }
       ],
       "posts": [
         {
+          "id": 6,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "vzxcvzx",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:26",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        },
+        {
           "id": 5,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fds",
+          "text": "vzxcvzxcv",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:31",
+          "date": "28 Август 11:13",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
@@ -1132,9 +1444,9 @@
         {
           "id": 4,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fsdfsd",
+          "text": "fasdf",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:30",
+          "date": "27 Август 17:40",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
@@ -1169,8 +1481,7 @@
           "countLikes": 0,
           "countReposts": 0
         }
-      ],
-      "newPostText": ""
+      ]
     },
     {
       "id": 2,
@@ -1223,29 +1534,33 @@
         {
           "id": 6,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "dsfsd",
-          "date": "18:22",
+          "message": "fasdfsad",
+          "date": "16:37",
           "name": "Иванов Иван"
         },
         {
           "id": 7,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsdfs",
-          "date": "18:30",
+          "message": "fsdafsa",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 8,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "gsdfgfsdgdsf",
+          "date": "16:40",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 9,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fasdfasd",
+          "date": "11:22",
           "name": "Иванов Иван"
         }
       ],
       "posts": [
-        {
-          "id": 2,
-          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fds",
-          "name": "Сергей Сергеев",
-          "date": "19 Август 18:22",
-          "img": "",
-          "countLikes": 0,
-          "countReposts": 0
-        },
         {
           "id": 1,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
@@ -1256,8 +1571,7 @@
           "countLikes": 0,
           "countReposts": 0
         }
-      ],
-      "newPostText": ""
+      ]
     },
     {
       "id": 3,
@@ -1271,20 +1585,16 @@
         "education": "РУТ МИИТ",
         "friendsCount": 20
       },
-      "messages": [],
-      "posts": [
+      "messages": [
         {
           "id": 1,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "dfsd",
-          "name": "Сергей Сергеев",
-          "date": "19 Август 18:31",
-          "img": "",
-          "countLikes": 0,
-          "countReposts": 0
+          "message": "gsfdgsd",
+          "date": "16:40",
+          "name": "Иванов Иван"
         }
       ],
-      "newPostText": ""
+      "posts": []
     },
     {
       "id": 4,
@@ -1302,8 +1612,43 @@
         {
           "id": 1,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "message": "fsdf",
-          "date": "18:22",
+          "message": "fasdfsad",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 2,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsadfsad",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 3,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "vzxcvxzcvcxzv",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 4,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "vzxbnadfgas",
+          "date": "16:38",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 5,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "sadffsadfasdfasdf",
+          "date": "11:14",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 6,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "rweqfgqewrgfvqergvqe",
+          "date": "11:14",
           "name": "Иванов Иван"
         }
       ],
@@ -1311,15 +1656,14 @@
         {
           "id": 1,
           "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
-          "text": "fsdf",
+          "text": "vzxcvzxcv",
           "name": "Сергей Сергеев",
-          "date": "19 Август 18:22",
+          "date": "28 Август 11:14",
           "img": "",
           "countLikes": 0,
           "countReposts": 0
         }
-      ],
-      "newPostText": ""
+      ]
     },
     {
       "id": 5,
@@ -1348,7 +1692,15 @@
         "education": "РУТ МИИТ",
         "friendsCount": 20
       },
-      "messages": [],
+      "messages": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "sdfagsadgasdgfas",
+          "date": "16:43",
+          "name": "Иванов Иван"
+        }
+      ],
       "posts": []
     },
     {
@@ -1438,8 +1790,34 @@
         "education": "РУТ МИИТ",
         "friendsCount": 20
       },
-      "messages": [],
-      "posts": []
+      "messages": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fsadfasdfasdf",
+          "date": "11:14",
+          "name": "Иванов Иван"
+        },
+        {
+          "id": 2,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "message": "fasdvcasdvas",
+          "date": "11:16",
+          "name": "Иванов Иван"
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "avatar": "https://stoletovalarisa.ru/wp-content/uploads/2018/07/15094407318551944672_thumbnail_900x.jpg",
+          "text": "fsadvbdfbre",
+          "name": "Сергей Сергеев",
+          "date": "28 Август 11:14",
+          "img": "",
+          "countLikes": 0,
+          "countReposts": 0
+        }
+      ]
     },
     {
       "id": 203,

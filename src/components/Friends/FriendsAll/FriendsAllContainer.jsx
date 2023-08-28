@@ -1,16 +1,13 @@
 import FriendsAll from "./FriendsAll";
-import { getFriends } from "../../../redux/friends.slice";
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React from "react";
+import { useGetFriendsAllQuery, useGetFriendsOnlineQuery } from "../../../redux/api/friends.api";
 
 const FriendsAllContainer = () => {
-	const { all, online } = useSelector(state => state.reducers.friendsPage.friends)
-	const { isLoading } = useSelector(state => state.reducers.friendsPage)
-	const dispatch = useDispatch()
 
-	useEffect(() => {
-		dispatch(getFriends())
-	}, [])
+	const { data: all, isLoading: friendsAllIsLoading } = useGetFriendsAllQuery()
+	const { data: online, isLoading: friendsOnlineIsLoading } = useGetFriendsOnlineQuery()
+	const isLoading = friendsAllIsLoading || friendsOnlineIsLoading
+
 
 	return (<FriendsAll
 		all={all}

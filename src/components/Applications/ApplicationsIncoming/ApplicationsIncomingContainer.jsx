@@ -1,17 +1,11 @@
-import { useDispatch, useSelector } from "react-redux";
 import ApplicationsIncoming from "./ApplicationsIncoming";
-import React, { useEffect } from "react";
-import { getApplications } from "../../../redux/friends.slice";
+import React from "react";
+import { useGetApplicationsIncomingQuery, useGetApplicationsOutgoingQuery } from "../../../redux/api/applications.api";
 
 const ApplicationsIncomingContainer = () => {
-
-	const { incoming, outgoing } = useSelector(state => state.reducers.friendsPage.applications)
-	const { isLoading } = useSelector(state => state.reducers.friendsPage)
-	const dispatch = useDispatch()
-
-	useEffect(() => {
-		dispatch(getApplications())
-	}, [])
+	const { data: incoming, isLoading: applicationsIsLoading } = useGetApplicationsIncomingQuery()
+	const { data: outgoing, isLoading: outgoingIsLoading } = useGetApplicationsOutgoingQuery()
+	const isLoading = applicationsIsLoading || outgoingIsLoading
 
 	return (
 		<ApplicationsIncoming

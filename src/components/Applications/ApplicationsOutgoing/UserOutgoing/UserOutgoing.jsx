@@ -1,12 +1,15 @@
 import styles from './UserOutgoing.module.scss'
 import { Link } from 'react-router-dom'
-import { cancelMyApplication } from '../../../../redux/friends.slice'
-import { useDispatch } from 'react-redux'
+import { useDeleteApplicationOutgoingMutation } from '../../../../redux/api/applications.api'
 
 
 const UserOutgoing = ({ user }) => {
 
-	const dispatch = useDispatch()
+	const [deleteApplicationOutgonig] = useDeleteApplicationOutgoingMutation()
+
+	const cancelMyApplication = async () => {
+		await deleteApplicationOutgonig(user.id)
+	}
 
 	return (
 		<div className={styles.wrapper}>
@@ -14,14 +17,14 @@ const UserOutgoing = ({ user }) => {
 				<Link to={`/profile/${user.id}`}>
 					<img src={user.info.avatar} alt="Avatar" />
 				</Link>
-				{user.info.online === true ? <div className={styles.online_true}><span></span></div> : null}
+				{user.info.online && <div className={styles.online_true}><span></span></div>}
 			</div>
 			<div className={styles.info}>
 				<div className={styles.name}>{user.info.name}</div>
 				<div className={styles.description}>{user.info.description}</div>
 				<div className={styles.actions}>
 					<button
-						onClick={() => dispatch(cancelMyApplication(user.id))}
+						onClick={cancelMyApplication}
 						className={`${styles.cancel_button} _button-grey`}>Отменить заявку</button>
 				</div>
 			</div>

@@ -6,13 +6,13 @@ import User from '../User/User'
 
 const FriendsOnline = (props) => {
 
-	let UsersElements = props.online.map((user) => {
+	let UsersElements = props.online ? props.online.map((user) => {
 		return (
 			<User
 				info={user.info}
 				id={user.id}
 				key={user.id} />)
-	})
+	}) : <div>Users not found</div>
 
 	return (
 		<div className={styles.wrapper} >
@@ -22,9 +22,12 @@ const FriendsOnline = (props) => {
 				<div className={styles.friends_count_body}>
 					<Link
 						to="/friends/all"
-						className={'_button-grey'}>Все друзья {props.all.length}
+						className={'_button-grey'}>
+						Все друзья {props.all ? props.all.length : 0}
 					</Link>
-					<div className='_button-active'>Друзья онлайн <span>{props.online.length}</span></div>
+					<div className='_button-active'>
+						Друзья онлайн <span>{props.online ? props.online.length : 0}</span>
+					</div>
 				</div>
 				<Link
 					className={'_button-blue'}

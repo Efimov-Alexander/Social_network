@@ -1,10 +1,27 @@
-import { useDispatch } from 'react-redux'
 import styles from './UserIncoming.module.scss'
 import { Link } from 'react-router-dom'
-import { acceptSomeoneApplication, rejectSomeoneApplication } from '../../../../redux/friends.slice'
+import { useDeleteApplicationIncomingMutation } from '../../../../redux/api/applications.api'
+import { usePostFriendsAllMutation, usePostFriendsOnlineMutation } from '../../../../redux/api/friends.api'
 
 const UserIncoming = ({ user }) => {
-	const dispatch = useDispatch()
+
+	const [
+		[postFriendsAll],
+		[postFriendsOnline],
+		[deleteApplicationIncoming],] = [
+			usePostFriendsAllMutation(),
+			usePostFriendsOnlineMutation(),
+			useDeleteApplicationIncomingMutation(),]
+
+	const acceptSomeoneApplication = async () => {
+		if (user.info.online) { await postFriendsOnline(user) }
+		await postFriendsAll(user)
+		await deleteApplicationIncoming(user.id)
+	}
+
+	const rejectSomeoneApplication = async () => {
+		await deleteApplicationIncoming(user.id)
+	}
 
 	return (
 		<div className={styles.wrapper}>
@@ -19,10 +36,10 @@ const UserIncoming = ({ user }) => {
 				<div className={styles.description}>{user.info.description}</div>
 				<div className={styles.actions}>
 					<button
-						onClick={() => dispatch(acceptSomeoneApplication(user))}
+						onClick={acceptSomeoneApplication}
 						className={`${styles.accept_button} _button-blue`}>Принять заявку</button>
 					<button
-						onClick={() => dispatch(rejectSomeoneApplication(user.id))}
+						onClick={rejectSomeoneApplication}
 						className={`${styles.cancel_button} _button-grey`}>Отклонить заявку</button>
 				</div>
 			</div>

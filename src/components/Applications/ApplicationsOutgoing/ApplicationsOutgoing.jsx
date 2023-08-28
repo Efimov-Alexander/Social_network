@@ -6,21 +6,26 @@ import Loader from '../../common/Loader/Loader'
 
 const ApplicationsOutgoing = (props) => {
 
-	let UsersElements = props.outgoing.map((user) => {
+	let UsersElements = props.outgoing ? props.outgoing.map((user) => {
 		return <UserOutgoing
 			key={user.id}
 			user={user} />
-	})
+	}) : <div>Users not found</div>
+
 	return (
 		<div className={styles.wrapper}>
-			{props.isLoading ? <Loader /> : null}
+			{props.isLoading && <Loader />}
 			<Search />
 			<div className={`_friends-bar`}>
 				<div className={styles.applications_count_body}>
 					<Link
 						to="/applications/incoming"
-						className={'_button-grey'}>Входящие {props.incoming.length}</Link>
-					<div className='_button-active'>Исходящие <span>{props.outgoing.length}</span></div>
+						className={'_button-grey'}>
+						Входящие {props.incoming ? props.incoming.length : 0}
+					</Link>
+					<div className='_button-active'>
+						Исходящие <span>{props.outgoing ? props.outgoing.length : 0}
+						</span></div>
 				</div>
 				<Link
 					className={'_button-blue'}

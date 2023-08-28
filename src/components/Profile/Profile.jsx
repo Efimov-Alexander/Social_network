@@ -6,18 +6,19 @@ import Post from './Post/Post'
 import Loader from '../common/Loader/Loader'
 
 const Profile = ({ profile, ...props }) => {
-	let PostsElements = profile.posts.map((post) => {
+	
+	let PostsElements = profile ? profile.posts.map((post) => {
 		return <Post
 			key={post.id}
 			post={post} />
-	})
+	}) : <div>Posts not found</div>
 
 	return (
 		<div className={styles.wrapper}>
 			{props.isLoading && <Loader />}
 			<div className={styles.user_info}>
-				<Image avatar={profile.info.avatar} />
-				<InfoContainer />
+				<Image avatar={profile ? profile.info.avatar : <div>Avatar not found</div>} />
+				<InfoContainer profile={profile} />
 			</div>
 			<News profile={profile} />
 			<ul className={styles.posts}>

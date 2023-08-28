@@ -1,18 +1,11 @@
-import { useDispatch, useSelector } from "react-redux";
 import Profile from "./Profile";
-import { getProfile } from "../../redux/profile.slice";
-import React, { useEffect } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
+import { useGetProfileQuery } from "../../redux/api/profile.api";
 
 const ProfileContainer = () => {
-
-	const { isLoading, profile } = useSelector(state => state.reducers.profilePage)
-	const dispatch = useDispatch()
 	const { profileId } = useParams()
-
-	useEffect(() => {
-		dispatch(getProfile(profileId))
-	}, [profileId])
+	const { data: profile, isLoading } = useGetProfileQuery(profileId)
 
 	return (<Profile
 		isLoading={isLoading}

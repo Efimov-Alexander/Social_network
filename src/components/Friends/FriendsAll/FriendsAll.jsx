@@ -5,12 +5,12 @@ import Loader from '../../common/Loader/Loader'
 import User from '../User/User'
 
 const FriendsAll = (props) => {
-	const UsersElements = props.all.map(user => {
+	const UsersElements = props.all ? props.all.map(user => {
 		return (<User
 			info={user.info}
 			id={user.id}
 			key={user.id} />)
-	})
+	}) : <div>Users not found</div>
 
 	return (
 		<div className={styles.wrapper} >
@@ -18,11 +18,13 @@ const FriendsAll = (props) => {
 			<Search />
 			<div className={`_friends-bar`}>
 				<div className={styles.friends_count_body}>
-					<div className='_button-active'>Все друзья <span>{props.all.length}</span></div>
+					<div className='_button-active'>
+						Все друзья <span>{props.all ? props.all.length : 0}</span>
+					</div>
 					<Link
 						to="/friends/online"
 						className={'_button-grey'}>
-						Друзья онлайн {props.online.length}
+						Друзья онлайн {props.online ? props.online.length : 0}
 					</Link>
 				</div>
 				<Link

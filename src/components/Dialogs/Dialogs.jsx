@@ -2,20 +2,22 @@ import Search from '../Search/Search'
 import styles from './Dialogs.module.scss'
 import User from './User/User'
 import Loader from '../common/Loader/Loader'
+import { useGetDialogsQuery } from '../../redux/api/dialogs.api'
 
+const Dialogs = () => {
+	const { data: dialogs, isLoading } = useGetDialogsQuery()
 
-const Dialogs = (props) => {
-	let DialogsElements = props.dialogs.map(user => {
+	let DialogsElements = dialogs ? dialogs.map(user => {
 		return <User
 			info={user.info}
 			key={user.id}
 			id={user.id}
 			messages={user.messages} />
-	})
+	}) : <div>Users not found</div>
 
 	return (
 		<div className={styles.wrapper}>
-			{props.isLoading && <Loader />}
+			{isLoading && <Loader />}
 			<div className={styles.body}>
 				<Search />
 				<ul className={styles.list}>

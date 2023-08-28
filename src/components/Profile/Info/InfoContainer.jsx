@@ -1,16 +1,18 @@
-import { useDispatch, useSelector } from "react-redux";
-import React, { useState, useEffect } from 'react'
-import { updateInfo } from '../../../redux/profile.slice'
+import React, { useEffect, useState } from 'react'
 import Info from './Info';
+import { useEditProfileInfoMutation } from '../../../redux/api/profile.api';
 
-const InfoContainer = () => {
-	const { profile } = useSelector(state => state.reducers.profilePage)
-	const dispatch = useDispatch()
+const InfoContainer = ({ profile }) => {
+
+	const [info, setInfo] = useState({
+		description: null,
+		dateOfBirth: null,
+		city: null,
+		education: null,
+	})
+
+	const [editProfileInfo] = useEditProfileInfoMutation()
 	const [editMode, setEditMode] = useState(false)
-	const [city, setCity] = useState(profile.info.city)
-	const [dateOfBirth, setDateOfBirth] = useState(profile.info.dateOfBirth)
-	const [description, setDescription] = useState(profile.info.description)
-	const [education, setEducation] = useState(profile.info.education)
 
 	const activateEditMode = () => {
 		setEditMode(true)
@@ -18,32 +20,32 @@ const InfoContainer = () => {
 
 	const deActivateEditMode = () => {
 		setEditMode(false)
-		dispatch(updateInfo({
+		const newProfile = {
+			...profile,
 			info: {
-				editMode,
-				city,
-				dateOfBirth,
-				description,
-				education
-			},
-			profile
-		}))
+				...profile.info,
+				...info
+			}
+		}
+		editProfileInfo(newProfile)
 	}
 
 	useEffect(() => {
-		setCity(profile.info.city)
-		setDateOfBirth(profile.info.dateOfBirth)
-		setDescription(profile.info.description)
-		setEducation(profile.info.education)
-	}, [profile.info])
+		return profile ? setInfo({
+			city: profile.info.city,
+			dateOfBirth: profile.info.dateOfBirth,
+			description: profile.info.description,
+			education: profile.info.education,
+		}) : undefined
+	}, [profile])
 
 	return (
-		<Info
-			profile={profile}
+		<Info profile={profile}
 			activateEditMode={activateEditMode}
 			deActivateEditMode={deActivateEditMode}
-			setInfo={{ setEditMode, setCity, setDateOfBirth, setDescription, setEducation }}
-			info={{ editMode, city, dateOfBirth, description, education }} />
+			setInfo={setInfo}
+			editMode={editMode}
+			info={info} />
 	)
 }
 
