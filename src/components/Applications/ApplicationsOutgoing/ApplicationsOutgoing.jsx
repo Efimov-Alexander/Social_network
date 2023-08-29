@@ -15,7 +15,7 @@ const ApplicationsOutgoing = (props) => {
 	return (
 		<div className={styles.wrapper}>
 			{props.isLoading && <Loader />}
-			<Search />
+			<Search setQueryTerm={props.setQueryTerm} />
 			<div className={`_friends-bar`}>
 				<div className={styles.applications_count_body}>
 					<Link

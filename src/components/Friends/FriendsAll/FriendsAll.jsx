@@ -5,6 +5,7 @@ import Loader from '../../common/Loader/Loader'
 import User from '../User/User'
 
 const FriendsAll = (props) => {
+
 	const UsersElements = props.all ? props.all.map(user => {
 		return (<User
 			info={user.info}
@@ -15,7 +16,7 @@ const FriendsAll = (props) => {
 	return (
 		<div className={styles.wrapper} >
 			{props.isLoading ? <Loader /> : null}
-			<Search />
+			<Search setQueryTerm={props.setQueryTerm} />
 			<div className={`_friends-bar`}>
 				<div className={styles.friends_count_body}>
 					<div className='_button-active'>

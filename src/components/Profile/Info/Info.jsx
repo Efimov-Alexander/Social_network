@@ -14,19 +14,19 @@ const Info = ({ profile, info, editMode, setInfo, ...props }) => {
 			<div className={styles.info_wrapper}>
 				<h3 className={styles.subtitle}>Личная информация</h3>
 				{profile ? profile.info.description && <Description
-					info={info}
+					description={info.description}
 					editMode={editMode}
 					setInfo={setInfo} /> : null}
 				{profile ? profile.info.dateOfBirth && <DateOfBirth
-					info={info}
+					dateOfBirth={info.dateOfBirth}
 					editMode={editMode}
 					setInfo={setInfo} /> : null}
 				{profile ? profile.info.city && <City
-					info={info}
+					city={info.city}
 					editMode={editMode}
 					setInfo={setInfo} /> : null}
 				{profile ? profile.info.education && <Education
-					info={info}
+					education={info.education}
 					editMode={editMode}
 					setInfo={setInfo} /> : null}
 				{profile ? profile.id === 10000 && <button

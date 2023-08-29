@@ -1,15 +1,18 @@
 import ApplicationsOutgoing from "./ApplicationsOutgoing";
-import React from "react";
+import React, { useState } from "react";
 import { useGetApplicationsIncomingQuery, useGetApplicationsOutgoingQuery } from "../../../redux/api/applications.api";
 
 
 const ApplicationsOutgoingContainer = () => {
-	const { data: incoming, isLoading: applicationsIsLoading } = useGetApplicationsIncomingQuery()
-	const { data: outgoing, isLoading: outgoingIsLoading } = useGetApplicationsOutgoingQuery()
+
+	const [queryTerm, setQueryTerm] = useState("")
+	const { data: incoming, isLoading: applicationsIsLoading } = useGetApplicationsIncomingQuery("")
+	const { data: outgoing, isLoading: outgoingIsLoading } = useGetApplicationsOutgoingQuery(queryTerm)
 	const isLoading = applicationsIsLoading || outgoingIsLoading
 
 	return (
 		<ApplicationsOutgoing
+		setQueryTerm={setQueryTerm}
 			incoming={incoming}
 			outgoing={outgoing}
 			isLoading={isLoading} />

@@ -3,9 +3,12 @@ import styles from './Dialogs.module.scss'
 import User from './User/User'
 import Loader from '../common/Loader/Loader'
 import { useGetDialogsQuery } from '../../redux/api/dialogs.api'
+import { useState } from 'react'
 
 const Dialogs = () => {
-	const { data: dialogs, isLoading } = useGetDialogsQuery()
+
+	const [queryTerm, setQueryTerm] = useState("")
+	const { data: dialogs, isLoading } = useGetDialogsQuery(queryTerm)
 
 	let DialogsElements = dialogs ? dialogs.map(user => {
 		return <User
@@ -19,7 +22,7 @@ const Dialogs = () => {
 		<div className={styles.wrapper}>
 			{isLoading && <Loader />}
 			<div className={styles.body}>
-				<Search />
+				<Search setQueryTerm={setQueryTerm} />
 				<ul className={styles.list}>
 					{DialogsElements.length === 0 ?
 						<div className={styles.null_dialogs_body}>
@@ -36,7 +39,7 @@ const Dialogs = () => {
 									fill="none" stroke="rgb(0, 0, 0)" strokeLinecap="round" strokeLinejoin="round"
 									strokeWidth="1"></path>
 							</svg>
-							<div className={styles.null_dialogs}>У вас нет диалогов</div>
+							<div className={styles.null_dialogs}>Ничего не найдено</div>
 						</div>
 						: DialogsElements}
 				</ul>

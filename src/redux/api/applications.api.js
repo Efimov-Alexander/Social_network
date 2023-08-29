@@ -3,15 +3,17 @@ import { api } from "./api"
 export const applicationsApi = api.injectEndpoints({
 	endpoints: builder => ({
 		getApplicationsIncoming: builder.query({
-			query: () => `/applicationsIncoming`,
-			providesTags: () => [{
+			query: (queryTerm) => `/applicationsIncoming?q=${queryTerm}`,
+			providesTags: (result, error, queryTerm) => [{
 				type: "Applications",
+				id: queryTerm
 			}]
 		}),
 		getApplicationsOutgoing: builder.query({
-			query: () => `/applicationsOutgoing`,
-			providesTags: () => [{
+			query: (queryTerm) => `/applicationsOutgoing?q=${queryTerm}`,
+			providesTags: (result, error, queryTerm) => [{
 				type: "Applications",
+				id: queryTerm
 			}]
 		}),
 		deleteApplicationIncoming: builder.mutation({

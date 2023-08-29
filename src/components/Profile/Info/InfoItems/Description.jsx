@@ -1,13 +1,14 @@
 import styles from './InfoItems.module.scss'
 import React from 'react'
 
-const Description = ({ info, ...props }) => {
+const Description = ({ description, ...props }) => {
 
 	const onDescriptionChange = (e) => {
-		props.setInfo({
-			...info,
-			description: e.currentTarget.value
-		})
+		const newDescription = e.currentTarget.value
+		props.setInfo(prev => ({
+			...prev,
+			description: newDescription,
+		}))
 	}
 
 	return (
@@ -17,9 +18,9 @@ const Description = ({ info, ...props }) => {
 				<input
 					className={styles.input}
 					onChange={onDescriptionChange}
-					value={info.description} />
+					value={description} />
 				:
-				<div >{info.description}</div>}
+				<div >{description}</div>}
 		</div>)
 }
 

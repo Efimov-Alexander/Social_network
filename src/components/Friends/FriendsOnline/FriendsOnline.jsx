@@ -17,7 +17,7 @@ const FriendsOnline = (props) => {
 	return (
 		<div className={styles.wrapper} >
 			{props.isLoading ? <Loader /> : null}
-			<Search />
+			<Search setQueryTerm={props.setQueryTerm} />
 			<div className={`_friends-bar`}>
 				<div className={styles.friends_count_body}>
 					<Link

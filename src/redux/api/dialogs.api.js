@@ -3,9 +3,10 @@ import { api } from "./api"
 export const dialogsApi = api.injectEndpoints({
 	endpoints: builder => ({
 		getDialogs: builder.query({
-			query: () => `/dialogs`,
-			providesTags: () => [{
+			query: (queryTerm) => `/dialogs?q=${queryTerm}`,
+			providesTags: (result, error, queryTerm) => [{
 				type: "Dialogs",
+				id: queryTerm,
 			}]
 		}),
 		addDialog: builder.mutation({

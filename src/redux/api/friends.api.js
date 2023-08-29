@@ -3,13 +3,13 @@ import { api } from "./api"
 export const friendsApi = api.injectEndpoints({
 	endpoints: builder => ({
 		getFriendsAll: builder.query({
-			query: () => `/friendsAll`,
+			query: (queryTerm) => `/friendsAll?q=${queryTerm}`,
 			providesTags: () => [{
 				type: "Friends",
 			}]
 		}),
 		getFriendsOnline: builder.query({
-			query: () => `/friendsOnline`,
+			query: (queryTerm) => `/friendsOnline?q=${queryTerm}`,
 			providesTags: () => [{
 				type: "Friends",
 			}]

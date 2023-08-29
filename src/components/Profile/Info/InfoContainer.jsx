@@ -31,12 +31,13 @@ const InfoContainer = ({ profile }) => {
 	}
 
 	useEffect(() => {
-		return profile ? setInfo({
+		if (!profile) return
+		setInfo({
 			city: profile.info.city,
 			dateOfBirth: profile.info.dateOfBirth,
 			description: profile.info.description,
 			education: profile.info.education,
-		}) : undefined
+		})
 	}, [profile])
 
 	return (
